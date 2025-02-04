@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Khan Academy HTML and CSS</title>
+    <style>
+        /* Basic CSS for styling */
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        header {
+            background: #35424a;
+            color: #ffffff;
+            padding: 1rem 0;
+            text-align: center;
+        }
+
+        section {
+            padding: 2rem;
+        }
+
+        article {
+            background: #ffffff;
+            margin: 1rem 0;
+            padding: 1rem;
+            border-radius: 5px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+        }
+
+        code {
+            background: #f4f4f4;
+            padding: 0.2rem 0.5rem;
+            border-radius: 3px;
+            font-family: "Courier New", Courier, monospace;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Khan Academy HTML and CSS Tutorials</h1>
+    </header>
+
+    <section>
+        <article>
+            <h2>1. Intro to HTML</h2>
+            <p>HTML (HyperText Markup Language) is the standard markup language for creating web pages. Below is an example of a basic HTML structure:</p>
+            <code>
+                &lt;!DOCTYPE html&gt;<br>
+                &lt;html&gt;<br>
+                &lt;head&gt;<br>
+                &lt;title&gt;My First Page&lt;/title&gt;<br>
+                &lt;/head&gt;<br>
+                &lt;body&gt;<br>
+                &lt;h1&gt;Hello, World!&lt;/h1&gt;<br>
+                &lt;p&gt;Welcome to my first web page.&lt;/p&gt;<br>
+                &lt;/body&gt;<br>
+                &lt;/html&gt;
+            </code>
+        </article>
+
+        <article>
+            <h2>2. Basic Tags</h2>
+            <p>Here are some basic HTML tags:</p>
+            <ul>
+                <li><code>&lt;h1&gt;</code> to <code>&lt;h6&gt;</code>: Headings</li>
+                <li><code>&lt;p&gt;</code>: Paragraph</li>
+                <li><code>&lt;ul&gt;</code>, <code>&lt;ol&gt;</code>: Lists</li>
+                <li><code>&lt;img&gt;</code>: Images</li>
+                <li><code>&lt;a&gt;</code>: Links</li>
+            </ul>
+        </article>
+
+        <article>
+            <h2>3. Adding Images</h2>
+            <p>To add an image, use the <code>&lt;img&gt;</code> tag with the <code>src</code> attribute:</p>
+            <code>
+                &lt;img src="image.jpg" alt="Description of image"&gt;
+            </code>
+        </article>
+
+        <article>
+            <h2>4. Linking Pages</h2>
+            <p>To link to another page, use the <code>&lt;a&gt;</code> tag:</p>
+            <code>
+                &lt;a href="https://www.example.com"&gt;Visit Example&lt;/a&gt;
+            </code>
+        </article>
+
+        <article>
+            <h2>5. Styling with CSS</h2>
+            <p>CSS (Cascading Style Sheets) is used to style your HTML elements. Inline example:</p>
+            <code>
+                &lt;p style="color: blue; font-size: 18px;"&gt;This is styled text.&lt;/p&gt;
+            </code>
+        </article>
+
+        <article>
+            <h2>6. More CSS Selectors</h2>
+            <p>Selectors in CSS allow you to target specific elements:</p>
+            <ul>
+                <li>Element Selector: <code>p { color: red; }</code></li>
+                <li>Class Selector: <code>.myClass { font-size: 20px; }</code></li>
+                <li>ID Selector: <code>#myId { text-align: center; }</code></li>
+            </ul>
+        </article>
+    </section>
+</body>
+</html>
