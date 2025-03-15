@@ -1,0 +1,52 @@
+# a Сумма чисел в списке
+nums = list(map(int, input().split()))
+print(sum(nums))
+
+# b Факториал числа
+def fact(n):
+    return 1 if n == 0 else n * fact(n - 1)
+
+print(fact(int(input())))
+
+# c Число Фибоначчи
+def fib(n):
+    a, b = 0, 1
+    for _ in range(n):
+        a, b = b, a + b
+    return a
+
+print(fib(int(input())))
+
+# d Простое ли число
+def is_prime(n):
+    if n < 2:
+        return False
+    for i in range(2, int(n**0.5) + 1):
+        if n % i == 0:
+            return False
+    return True
+
+print(is_prime(int(input())))
+
+# e Обратный порядок слов
+print(" ".join(input().split()[::-1]))
+
+# f Поиск наибольшего числа в списке
+nums = list(map(int, input().split()))
+print(max(nums))
+
+# g Сортировка списка по возрастанию
+nums = list(map(int, input().split()))
+print(*sorted(nums))
+
+# h Подсчёт количества цифр в числе
+print(len(str(abs(int(input())))))
+
+# i Поиск наименьшего числа в списке
+nums = list(map(int, input().split()))
+print(min(nums))
+
+# j Частота символов в строке
+from collections import Counter
+
+print(dict(Counter(input())))
